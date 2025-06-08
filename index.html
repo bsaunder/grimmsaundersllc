@@ -15,7 +15,7 @@
     <link rel="icon" href="src/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="icon" href="src/images/favicons/favicon.ico">
   </head>
-  <body>
+  <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="index.html">
@@ -33,15 +33,21 @@
         </div>
       </div>
     </nav>
-    <div class="container" style="padding-top: 4rem;">
-      <main class="d-flex">
-        <img src="src/images/logo.png" class="img-fluid mx-auto d-block" alt="GrimmSaunders LLC logo" />
-      </main>
 
-      <footer class="">
-        <div class="text-center">Created by GrimmSaunders Media, a division of GrimmSaunders LLC &middot; &copy; 2024</div>
-      </footer>
-    </div>
+    <main class="flex-shrink-0">
+      <div class="container" style="padding-top: 4rem;">
+        <div class="d-flex">
+          <img src="src/images/logo.png" class="img-fluid mx-auto d-block" alt="GrimmSaunders LLC logo" />
+        </div>
+        <div class="text-center my-3"><a href="faq.html" class="btn btn-primary">FAQ</a></div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container text-center">
+        <span class="text-muted">Created by GrimmSaunders Media, a division of GrimmSaunders LLC &middot; &copy; 2024</span>
+      </div>
+    </footer>
 
 
     <script src="src/js/bootstrap.bundle.min.js"></script>
