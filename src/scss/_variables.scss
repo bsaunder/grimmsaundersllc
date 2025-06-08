@@ -5,7 +5,35 @@ $enable-shadows: true;
 $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 
 // Customize some defaults
-// $body-color: #333;
 $body-bg: #F2F6F6;
-// $border-radius: .4rem;
-// $success: #7952b3;
+$body-color: #251A2F;
+$gray-100: #e9e8ea ;
+$gray-200: #d3d1d5 ;
+$gray-300: #bebac1 ;
+$gray-400: #a8a3ac ;
+$gray-500: #928d97 ;
+$gray-600: #7c7682 ;
+$gray-700: #665f6d ;
+$gray-800: #514859 ;
+$gray-900: #3b3144 ;
+$black:    #251a2f ;
+// scss-docs-start color-variables
+// $blue:    #0d6efd !default;
+// $indigo:  #6610f2 !default;
+// $purple:  #6f42c1 !default;
+// $pink:    #d63384 !default;
+// $red:     #dc3545 !default;
+$orange:  #FF6F0F;
+// $yellow:  #ffc107 !default;
+$green:   #82C490 ;
+// $teal:    #20c997 !default;
+$cyan:    #4EA9B1;
+// scss-docs-end color-variables
+$primary:       $orange;
+// $secondary:     $gray-600 !default;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+// $light:         $gray-100 !default;
+// $dark:          $gray-900 !default;
