@@ -15,7 +15,7 @@
     <link rel="icon" href="src/images/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="icon" href="src/images/favicons/favicon.ico">
   </head>
-  <body id="top">
+  <body id="top" class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">GrimmSaunders LLC</a>
@@ -31,8 +31,8 @@
       </div>
     </nav>
 
-    <div class="container" style="padding-top: 4rem;">
-      <main>
+    <main class="flex-shrink-0">
+      <div class="container" style="padding-top: 4rem;">
         <div class="accordion" id="faqAccordion">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
@@ -51,12 +51,14 @@
         <div class="text-end mt-4">
           <a href="#top" class="btn btn-primary">Return to top</a>
         </div>
-      </main>
+      </div>
+    </main>
 
-      <footer class="mt-5">
-        <div class="text-center">Created by GrimmSaunders Media, a division of GrimmSaunders LLC &middot; &copy; 2024</div>
-      </footer>
-    </div>
+    <footer class="footer mt-auto py-3 bg-light">
+      <div class="container text-center">
+        <span class="text-muted">Created by GrimmSaunders Media, a division of GrimmSaunders LLC &middot; &copy; 2024</span>
+      </div>
+    </footer>
 
     <script src="src/js/bootstrap.bundle.min.js"></script>
   </body>
